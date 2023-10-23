@@ -1,0 +1,34 @@
+*, ::after , ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+ul {
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.cool_button{
+  background-color: black;
+  color: #fff;
+  padding: .5rem 1.3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+}
+.cool_button:hover{
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #000;
+  transition: all .5s ease;
+}
